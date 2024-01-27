@@ -17,9 +17,10 @@ This model performs really high on the MTEB Leaderboard and is also open source,
 ### How to run the code:
 
 1. Clone the repo
-2. Create a conda environment using the `environment.yml` file
-3. Download the LLM model from [here](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/tree/main) and place it in the `same` folder.
-4. Open terminal and do `python app.py`
+2. Create a conda environment using the `requiremnets.txt` file
+3. Use command `conda create -n newEnv --file requiremnets.txt`
+4. Download the LLM model from [here](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/tree/main) and place it in the `same` folder.
+5. Open the terminal and do `python app.py`
 
 ### My Hardware Specs:
 

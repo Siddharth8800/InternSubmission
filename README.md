@@ -20,3 +20,13 @@ This model performs really high on the MTEB Leaderboard and is also open source,
 2. Create a conda environment using the `environment.yml` file
 3. Download the LLM model from [here](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/tree/main) and place it in the `same` folder.
 4. Open terminal and do `python app.py`
+
+### My Hardware Specs:
+
+1. CPU: Intel i7-13700K
+2. GPU: Nvidia RTX 3090
+3. RAM: 32GB G.Skill Ripjaws 6000mt/s
+
+### Conclusion:
+
+This took me wayy longer than expected beacuse I was having trouble deploying the app on HuggingFace Spaces, go I just went with locally hosting the app on my PC using Gradio Tunnel, I hope that's okay, but for future I'd rather just go with docker and not fiddle with HuggingFace Spaces.

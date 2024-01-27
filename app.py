@@ -17,4 +17,4 @@ examples = ["Can you give me an example from history where the enemy was crushed
             "What's the point of making myself less accessible?",
             "Can you tell me the story of Queen Elizabeth I from this 48 laws of power book?"
             ]
-gr.ChatInterface(predict, title=title, examples=examples, description=description).launch()
+gr.ChatInterface(predict, title=title, examples=examples, description=description).launch(share=True)

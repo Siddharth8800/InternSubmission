@@ -1,4 +1,4 @@
-# Internshala Submission
+# RAG Chatbot
 
 This repo contains the code for the submission and the jupyter notebook `working.ipynb` contains the code for generating the embeddings initially. The embedings are then saved in the `chroma_db` folder.
 
